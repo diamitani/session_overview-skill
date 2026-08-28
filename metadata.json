@@ -1,0 +1,29 @@
+{
+  "name": "session_overview",
+  "full_name": "session_overview-skill",
+  "category": "08-executive-productivity",
+  "description": "session_overview",
+  "source_file": "session-overview.md",
+  "created": "2026-08-28T17:21:19.837193",
+  "author": "diamitani",
+  "tags": [
+    "08_executive_productivity",
+    "ai_skill",
+    "agent_framework"
+  ],
+  "framework": {
+    "type": "SKILL.md",
+    "compliance": "PAL v2.0",
+    "intake_required": true,
+    "mcp_ready": false
+  },
+  "placeholders": {
+    "{{COMPANY_NAME}}": "Replace with your company name",
+    "{{COMPANY_SLUG}}": "Replace with company URL slug",
+    "{{USER_HOME}}": "User home directory path",
+    "{{N8N_INSTANCE_URL}}": "Your n8n instance URL",
+    "{{HUBSPOT_PORTAL_ID}}": "HubSpot portal ID",
+    "{{ADMIN_EMAIL}}": "Admin email address",
+    "{{MEETINGS_URL}}": "Calendar meetings URL"
+  }
+}
