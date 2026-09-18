@@ -1,13 +1,7 @@
 ---
 name: session-overview
 description: >
-  Session debrief and clarity skill. Reads the full conversation transcript — every message, code block, tool call, permission button, and "yes/approve" click — and turns it into a structured, plain-English session report. Shows what actually ran, what you approved without reading, what Claude changed, and how aligned the session was to your original intent. Includes a plain-English "What Just Happened" summary anyone can understand, and a troubleshooting doc for when things go wrong. Over time builds a personal pattern log so you can tune what kinds of sessions to approve, slow down, or redirect. Use after any session to understand what happened, or before a commit to audit what was built. Triggers: session review, what did we do, debrief this session, audit this session, show me what ran, what did I approve, session report, session overview.
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - WebFetch
+  Session debrief and clarity skill. Reads the full conversation transcript — every message, code block, tool call, permission button, and "yes/approve" click — and turns it into a structured, plain-English session report. Shows what actually ran, what you approved without reading, what Claude changed, and how aligned the session was to your original intent. Includes a plain-English "What Just Happened" summary anyone can understand, and a troubleshooting doc for when things go wrong. Over time builds a personal pattern log so you can tune what kinds of sessions to approve, slow down, or redirect. Use after any session to understand what happened, or before a commit to audit what was built. Triggers: session review, what did we do, debrief this session, audit this session, show me what ran, what did I approve, session report, session overview. allowed-tools: - Bash - Read - Write - Edit - WebFetch Use this skill when working with session overview tasks or workflows.
 ---
 
 # Session Overview Skill
